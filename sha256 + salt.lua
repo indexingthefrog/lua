@@ -39,4 +39,4 @@ local sha = sha256(mg)
 
 print('salt id output : ' .. mg)
 print('sha256 output : ' .. sha) -- example: hello + salt = 412a108e202c0956bb7f3c5e5708ff2ecd38052feb87062a26ec0ca121a71338
-print('copied to clipboard! : ' .. sha)
+setclipboard('copied to clipboard! : ' .. sha)
