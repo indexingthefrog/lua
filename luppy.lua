@@ -1,5 +1,4 @@
 local py = {}
-local mod = math.fmod
 -- https://cboard.cprogramming.com/c-programming/150505-rounding-up.html
 function py.round(v,nearest) 
     local m,r=1
