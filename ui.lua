@@ -2006,7 +2006,7 @@ function library:AddWindow(title, options)
 
 				end
 
-				return tab_data, new_tab
+				return tab_data, new_tab,library
 			end
 		end
 	end
